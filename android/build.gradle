@@ -51,6 +51,13 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/elitesdk/Android-SDK")
+            credentials {
+                username = "elitesdk"
+                password = "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"
+            }
+        }
 
     }
 }
