@@ -1,3 +1,4 @@
 export interface RedemptionKitIonicHelperPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  initializeAndLaunch(options: { value: string, name: string }): Promise<{ value: string }>;
+  
 }
